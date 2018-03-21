@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.github.at.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+        <com.github.at.widget.MentionEditText
+            android:id="@+id/comment_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:hint="say something"
+            android:textColor="#E5161823"
+            android:textColorHint="#4C000000"
+            android:textSize="15sp"
+            android:layout_toLeftOf="@+id/at"/>
+
+        <ImageView
+            android:id="@+id/at"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_text_markperson" />
+    </RelativeLayout>
+
+</LinearLayout>

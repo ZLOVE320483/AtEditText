@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AtEditText</string>
+    <string name="already_ated">You\'ve already mentioned this user.</string>
+    <string name="max_at_limit">Can mention up to 5 friends</string>
+</resources>
